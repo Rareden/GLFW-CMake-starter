@@ -2,7 +2,7 @@
 
 #define GLFW_INCLUDE_VULKAN
 
-#include <GLFW/glfw3.h>
+#include "DatEngine/ThirdParty/glfw/include/GLFW/glfw3.h"
 
 // std lib headers
 #include <string>

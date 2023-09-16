@@ -26,11 +26,11 @@ if( MSVC )
 endif()
 
 set( GLFW-CMAKE-STARTER-SRC
-     main.cpp
-        rh_pipeline.h
-        rh_pipeline.cpp
-        Dat_Engine_Device.cpp
-        Dat_Engine_Device.hpp
+        main.cpp
+        Source/Engine/rh_pipeline.h
+        Source/Engine/rh_pipeline.cpp
+        Source/Engine/Dat_Engine_Device.cpp
+        Source/Engine/Dat_Engine_Device.hpp
         Source/Engine/Application/AppWindow.h
         Source/Engine/Application/AppWindow.cpp
         Source/Engine/Application/SwapChain.hpp
